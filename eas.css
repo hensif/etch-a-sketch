@@ -1,0 +1,46 @@
+html {
+    background-color: aquamarine;
+    opacity: 0.8;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 100px 0px;
+    gap: 10px;
+    box-shadow: 20px -20px #023020;
+}
+
+.setsize {
+    border: 3px solid green;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #023020;
+    box-shadow: 3px -3px #023020;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px -5px #023020;
+}
+
+.header {
+    margin: 0;
+    font-weight: bold;
+    color: green;
+    text-shadow: 3px -3px #023020;
+}
+
+.square {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 175, 175);
+}
+
